@@ -1,0 +1,71 @@
+
+body{
+  background-color: none;
+}
+
+
+.album {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.album img {
+  width: 360px;
+  height: 325px;
+  margin: 3px;
+  cursor: pointer;
+  margin-left:10px;
+}
+
+.reddish {
+  filter: hue-rotate(90deg);
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+
+.heading{
+  text-align: center;
+  font-family: roboto;
+  font-size: 35px;
+
+  
+}
+
+
+.about h2{
+  font-size: 32px;
+}
+
+.buttons{
+
+  padding-inline:0px;
+ margin:10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 10% 10% 10%;
+  gap:15%;
+  grid-template-rows: 60px 60px;
+  background-color: none;
+  margin:20px;
+  padding: 2px;
+  font-size: 25px;
+}
+.hi{
+  font-size:20px;
+  font-weight: 300;
+  font-family: roboto;
+  text-align: center;
+}
+
+.hi:hover{
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  background-color:rgb(240, 228, 118);
+}
